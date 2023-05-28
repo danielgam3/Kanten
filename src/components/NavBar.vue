@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand">
         <img src="../assets/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
@@ -10,10 +10,13 @@
       </button>
       <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Events</a>
-          <a class="nav-link" href="#">Newsletter</a>
-          <a class="nav-link" href="#">Merchandising</a>
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+          <a class="nav-link" href="/events">Events</a>
+          <a class="nav-link" href="/newsletter">Newsletter</a>
+          <a class="nav-link" href="/prime">Prime Member</a>
+          <a class="nav-link" href="/volunteers">Volunteers</a>
+          <a class="nav-link" href="/gallery">Gallery</a>
+          <a class="nav-link" href="/sponsor">Become Sponsor</a>
         </div>
         <button type="button" class="btn btn-primary login" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
       </div>
@@ -36,8 +39,14 @@
             <input type="password" class="form-control mx-auto" style="width:80%;" id="exampleInputPassword1">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Log in</button>
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Sign up!</button>
+            <div class="mx-auto">
+            <button type="button" class="btn btn-secondary m-1" data-bs-dismiss="modal">Log in</button>
+            <button type="button" class="btn btn-primary m-1" data-bs-dismiss="modal">Sign up!</button>
+          </div>
+          </div>
+          <div class="modal-footer">
+              <input type="email" class="form-control mx-auto" style="width:80%;" id="exampleInputPassword1" placeholder="Enter your email">
+              <button type="button" class="btn btn-primary mx-auto" data-bs-dismiss="modal">News letter</button>
           </div>
         </form>
       </div>
