@@ -3,7 +3,7 @@
   <!-- <Main msg="Welcome to Kanten"/>  LISTO-->
   <!-- <Events msg="Events Page"/>
   <Gallery/>  mañana con base de datos -->
-  <!-- <Newsletter/> MAÑANA CON BASE DE DATOS -->
+  <!-- <Newsletter/> MailChimp hoy-->
   <!-- <Prime/> LISTO -->
   <!-- <Sponsor/> LISTO  -->
   <Volunteers/>

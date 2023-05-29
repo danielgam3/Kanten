@@ -66,7 +66,20 @@
         </div>
       </div>
     </div>
-    <p>fotos</p>
+    <div class="row p-5">
+      <div class="col-md-3">
+        <img src="../assets/volunteers/volunteer1.jpeg" class="voluntering rounded-2 d-block w-100 carousel-img"/>
+      </div>
+      <div class="col-md-3">
+        <img src="../assets/volunteers/volunteer2.jpeg" class="voluntering rounded-2 d-block w-100 carousel-img"/>
+      </div>
+      <div class="col-md-3">
+        <img src="../assets/volunteers/volunteer3.jpeg" class="voluntering rounded-2 d-block w-100 carousel-img"/>
+      </div>
+      <div class="col-md-3">
+        <img src="../assets/volunteers/volunteer4.jpeg" class="voluntering rounded-2 d-block w-100 carousel-img"/>
+      </div>
+    </div>
 
     <div class="row p-1">
       <div class="col-md-6 mx-auto my-auto">
@@ -158,6 +171,10 @@ adhering to responsible alcohol service guidelines.
   <style scoped>
   p{
     color: white;
+  }
+
+  .voluntering:hover {
+    transform: scale(1.1);
   }
   
   </style>
