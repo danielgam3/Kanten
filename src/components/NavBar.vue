@@ -44,10 +44,6 @@
             <button type="button" class="btn btn-primary m-1" data-bs-dismiss="modal">Sign up!</button>
           </div>
           </div>
-          <div class="modal-footer">
-              <input type="email" class="form-control mx-auto" style="width:80%;" id="exampleInputPassword1" placeholder="Enter your email">
-              <button type="button" class="btn btn-primary mx-auto" data-bs-dismiss="modal">News letter</button>
-          </div>
         </form>
       </div>
     </div>

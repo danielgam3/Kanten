@@ -162,21 +162,6 @@
     </div>
     
   </div>
-  <div class="row">
-    <div class="bg-dark">
-            <div class="text-white text-center mx-auto">
-              <a href="https://www.google.com/maps/place/Gl+Novrupvej+14,+6705+Esbjerg+Kommune/@55.4769721,8.4895869,17z/data=!4m2!3m1!1s0x464b2145d7c77159:0x2bc63adfd5ed6add">
-                <font style="vertical-align: inherit;">
-                <font style="vertical-align: inherit;">GL NOVRUPVEJ 14, 6705 ESBJERG Ø</font>
-              </font>
-            </a>
-            <p>PHONE: 45+ 28 97 11 85</p>
-            <p>EMAIL:
-              <a href="mailto:MUSIKFORENINGENKANTEN@GMAIL.COM">MUSIKFORENINGENKANTEN@GMAIL.COM</a></p>
-              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">COPYRIGHT ©KANTEN 2023 By Daniel</font></font></p>
-          </div>
-        </div>
-  </div>
   </div> 
 
   <div class="modal fade" id="ModalLocation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
