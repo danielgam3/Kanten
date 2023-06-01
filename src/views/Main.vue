@@ -26,13 +26,22 @@
         </div>
     </div>
   </div>
-<div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
+<div id="carouselExample" class="carousel slide mt-2">
+  <div class="carousel-inner rounded-3">
     <div class="carousel-item active">
-      <img src="../assets/img_carousel_main/event1.avif" class="d-block w-100 carousel-img" alt="...">
+      <img src="../assets/img_carousel_main/event1.avif" class="d-block w-100 carousel-img rounded-3" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../assets/img_carousel_main/event2.avif" class="d-block w-100 carousel-img" alt="...">
+      <img src="../assets/img_carousel_main/carouselHome1.jpeg" class="d-block w-100 carousel-img rounded-3" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/img_carousel_main/carouselHome2.jpeg" class="d-block w-100 carousel-img rounded-3" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/img_carousel_main/carouselHome3.jpeg" class="d-block w-100 carousel-img rounded-3" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/img_carousel_main/carouselHome4.jpeg" class="d-block w-100 carousel-img rounded-3" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

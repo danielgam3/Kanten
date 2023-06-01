@@ -18,13 +18,12 @@
           <RouterLink id="nav" class="nav-link" to="/volunteers">Volunteers</RouterLink>
           <RouterLink id="nav" class="nav-link" to="/gallery">Gallery</RouterLink>
           <RouterLink id="nav" class="nav-link" to="/sponsor">Become Sponsor</RouterLink>
-          <button type="button" class="btn btn-primary login" data-bs-toggle="modal"
-            data-bs-target="#staticBackdrop">Login</button>
         </div>
-      </div>
+        <button type="button" class="btn btn-primary login" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
+      </div>      
     </div>
   </nav>
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -86,5 +85,27 @@ export default {
 .login{
   margin-left: auto;
 }
+
+.navbar-nav .nav-link {
+  position: relative;
+  color: #000; /* Set your desired link color */
+}
+
+.navbar-nav .nav-link::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #000; /* Set your desired shine color */
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::before {
+  transform: scaleX(1);
+}
+
 
 </style>

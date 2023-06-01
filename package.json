@@ -18,7 +18,8 @@
     "url-loader": "^4.1.1",
     "vue": "^3.2.13",
     "vue-icon": "^2.3.0",
-    "vue-router": "^4.2.2"
+    "vue-router": "^4.2.2",
+    "vue-uuid": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

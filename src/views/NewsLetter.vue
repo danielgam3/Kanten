@@ -1,9 +1,95 @@
 <template>
   <div class="container-fluid bg-dark">
-    <div class="row">
-      <div class="col-md-12 mx-auto my-auto">
+    <div class="row p-1">
+      <div class="col-md-6 mx-auto my-auto">
+        <div class="card bg-dark rounded-3" style="width: 100%;">
+          <div class="card-body text-bg-dark rounded-3">
+            <h3>Description of NewsLetter!!!</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-1">
+      <div class="col-md-6 mx-auto my-auto">
+        <div class="card bg-dark rounded-3" style="width: 100%;">
+          <div class="card-body text-bg-dark rounded-3">
+            <h5 class="card-title">1. Stay Updated: </h5>
+            <p>
+              By subscribing to the newsletter, users will receive regular updates about the latest news, events, and promotions happening at Kanten. They will be the first to know about upcoming parties, live performances, special offers, and any other exciting happenings.
+</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mx-auto my-auto">
+        <div class="card bg-dark rounded-3" style="width: 100%;">
+          <div class="card-body text-bg-dark rounded-3">
+            <h5 class="card-title">2 Exclusive Offers:</h5>
+            <p>
+              Newsletter subscribers can enjoy exclusive discounts, offers, or early access to tickets for events. It gives them a sense of being a valued member of the club, as they receive special deals not available to the general public.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-1">
+      <div class="col-md-6 mx-auto my-auto">
+        <div class="card bg-dark rounded-3" style="width: 100%;">
+          <div class="card-body text-bg-dark rounded-3">
+            <h5 class="card-title">3. Event Reminders:</h5>
+            <p>
+              Sometimes, people might miss out on events due to a busy schedule. Subscribing to the newsletter ensures that they receive timely reminders about upcoming events, so they don't miss out on their favorite parties, concerts, or theme nights.</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6 mx-auto my-auto">
+        <div class="card bg-dark rounded-3" style="width: 100%;">
+          <div class="card-body text-bg-dark rounded-3">
+            <h5 class="card-title">4. Insider Content:</h5>
+            <p>
+              The newsletter can provide subscribers with behind-the-scenes insights, interviews with artists or DJs, and exclusive content related to the club. This gives them a more intimate connection with Kanten and enhances their overall experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-1">
+      <div class="col-md-6 mx-auto my-auto">
+        <div class="card bg-dark rounded-3" style="width: 100%;">
+          <div class="card-body text-bg-dark rounded-3">
+            <h5 class="card-title">5. Community Engagement:</h5>
+            <p>
+              Subscribing to the newsletter can also make users feel like part of a community. It can include user-generated content and highlights of members' experiences at Kanten, fostering a sense of belonging and camaraderie.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mx-auto my-auto">
+        <div class="card bg-dark rounded-3" style="width: 100%;">
+          <div class="card-body text-bg-dark rounded-3">
+            <h5 class="card-title">6. New Music Recommendations:</h5>
+            <p>
+              As Kanten is known for its music selection, the newsletter can include curated playlists, recommendations for new tracks, or even access to DJ mixes. This adds value to subscribers who are passionate about discovering new music and enhances their overall enjoyment of the club's atmosphere.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-1">
+      <div class="col-md-6 mx-auto my-auto">
+        <div class="card bg-dark rounded-3" style="width: 100%;">
+          <div class="card-body text-bg-dark rounded-3">
+            <h5 class="card-title">7. VIP Access:</h5>
+            <p>
+              Occasionally, the newsletter can provide subscribers with the opportunity to win VIP passes, backstage meetups, or other exclusive experiences. This further incentivizes users to subscribe and increases their chances of enjoying unique privileges as part of the Kanten community.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="row bg-dark">
+      <div class="col-md-6 mx-auto my-auto">
         <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
-        <div id="mc_embed_signup">
+        <div id="mc_embed_signup" class="rounded-3">
           <form
             action="https://gmail.us9.list-manage.com/subscribe/post?u=c63325db6b5d7dc6dafa5c736&amp;id=5f2796291f&amp;f_id=00150ce1f0"
             method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
@@ -35,7 +121,6 @@
       </div>
 
     </div>
-  </div>
 </template>
 
 
@@ -51,7 +136,15 @@ export default {
 
 <style scoped>
 p {
-  color: red;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+span {
+  color: white;
 }
 
 #mc_embed_signup {
