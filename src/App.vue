@@ -1,40 +1,70 @@
 <template>
-  <NavBar/>
-  <!-- <Main msg="Welcome to Kanten"/> 
-  <Events msg="Events Page"/> -->
-  <Gallery/>
-  <!-- <Merch/> 
-  <Newsletter/>
-  <Prime/>
-  <Sponsor/> 
-  <Volunteers/> -->
-  <Footer/> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <img src="./assets/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Kanten
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <RouterLink id="nav" class="nav-link" to="/">Home</RouterLink>
+          <RouterLink id="nav" class="nav-link" to="/events">Events</RouterLink>
+          <RouterLink id="nav" class="nav-link" to="/newsletter">Newsletter</RouterLink>
+          <RouterLink id="nav" class="nav-link" to="/prime">Prime Member</RouterLink>
+          <RouterLink id="nav" class="nav-link" to="/volunteers">Volunteers</RouterLink>
+          <RouterLink id="nav" class="nav-link" to="/gallery">Gallery</RouterLink>
+          <RouterLink id="nav" class="nav-link" to="/sponsor">Become Sponsor</RouterLink>
+          <button type="button" class="btn btn-primary login" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">Login</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control mx-auto" style="width:80%;" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control mx-auto" style="width:80%;" id="exampleInputPassword1">
+            </div>
+            <div class="modal-footer">
+              <div class="mx-auto">
+                <button type="button" class="btn btn-secondary m-1" data-bs-dismiss="modal">Log in</button>
+                <button type="button" class="btn btn-primary m-1" data-bs-dismiss="modal">Sign up!</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <RouterView />
+  <Footer/>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue';
 import Footer from './components/Footer.vue';
-// import Main from './views/Main.vue'
-// import Events from './views/Events.vue'
-import Gallery from './views/Gallery.vue'
-// import Merch from './views/Merch.vue'
-// import Newsletter from './views/NewsLetter.vue'
-// import Prime from './views/Prime.vue'
-// import Sponsor from './views/Sponsor.vue'
-// import Volunteers from './views/Volunteers.vue'
+
 
 export default {
   name: 'App',
   components: {
-    // Main,
-    NavBar,
-    // Events,
-    Gallery,
-    // Merch,
-    // Newsletter,
-    // Prime,
-    // Sponsor,
-    // Volunteers,
     Footer
   }
 }
@@ -48,4 +78,13 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
+
+#nav {
+  color: white;
+}
+.login{
+  margin-left: auto;
+}
+
 </style>
